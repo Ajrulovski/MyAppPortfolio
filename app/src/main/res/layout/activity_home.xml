@@ -1,0 +1,112 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context=".home">
+
+    <TextView
+        android:id="@+id/titletext"
+        android:text="My nanodegree apps"
+        android:gravity="center"
+        android:layout_centerHorizontal="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="30dp"
+        android:textColor="#D32F2F" />
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:layout_marginBottom="3dp"
+        android:layout_below="@id/titletext"
+        android:background="@android:color/darker_gray"/>
+
+    <Button
+        android:layout_width="300dp"
+        android:background="#D32F2F"
+        android:textColor="#fff"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="3dp"
+        android:text="Spotify streamer"
+        android:id="@+id/spotifystreamer"
+        android:gravity="center"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/titletext"
+        android:onClick="startApp"
+        style="@style/AppTheme" />
+
+    <Button
+        android:layout_width="300dp"
+        android:background="#D32F2F"
+        android:textColor="#fff"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="3dp"
+        android:text="Scores app"
+        android:id="@+id/scoresapp"
+        android:gravity="center"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/spotifystreamer"
+        android:onClick="startApp"
+        style="@style/AppTheme" />
+
+    <Button
+        android:layout_width="300dp"
+        android:background="#D32F2F"
+        android:textColor="#fff"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="3dp"
+        android:text="Library app"
+        android:id="@+id/libraryapp"
+        android:gravity="center"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/scoresapp"
+        android:onClick="startApp"
+        style="@style/AppTheme" />
+
+    <Button
+        android:layout_width="300dp"
+        android:background="#D32F2F"
+        android:textColor="#fff"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="3dp"
+        android:text="Build it bigger"
+        android:id="@+id/builditbigger"
+        android:gravity="center"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/libraryapp"
+        android:onClick="startApp"
+        style="@style/AppTheme" />
+
+    <Button
+        android:layout_width="300dp"
+        android:background="#D32F2F"
+        android:textColor="#fff"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="3dp"
+        android:text="XYZ reader"
+        android:id="@+id/xyzreader"
+        android:gravity="center"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/builditbigger"
+        android:onClick="startApp"
+        style="@style/AppTheme" />
+
+    <Button
+        android:layout_width="300dp"
+        android:background="#B71C1C"
+        android:textColor="#fff"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="3dp"
+        android:text="CAPSTONE: My own app"
+        android:id="@+id/myownapp"
+        android:gravity="center"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/xyzreader"
+        android:onClick="startApp"
+        style="@style/AppTheme" />
+
+</RelativeLayout>
